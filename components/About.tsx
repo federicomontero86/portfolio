@@ -21,30 +21,39 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         {" "}
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        <span className="font-medium">Music</span> has been my primary activity
+        throughout my life, until 2021 when I decided to make a radical shift in
+        my career and venture into the world of software development. I enrolled
+        in a coding bootcamp and learned{" "}
+        <span className="font-medium">full-stack web development</span>. Over
+        the years,{" "}
+        <span className="italic">
+          my passion for Front-End development with React.js
+        </span>{" "}
+        has grown significantly. My current goal is to gain experience within
+        the <span className="underline">React.js ecosystem</span>, connect with
+        inspiring professionals who can provide guidance, and{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          continue my learning journey consistently
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
+        . I aspire to become a React.js Developer capable of making an impact
+        across various domains. My core stack is{" "}
+        <span className="font-medium">
+          HTML, CSS, Javascript, React and Next.js
+        </span>
+        . I am also familiar with TypeScript. I am always looking to learn new
+        technologies. I am currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a front-end
         developer.
       </p>
       <p>
         {" "}
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        music with my friends, playing soccer, and spending nice time with my
+        family. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        learning about audio production and music arrangements
+        <span className="font-medium"></span>.
       </p>
     </motion.section>
   );
