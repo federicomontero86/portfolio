@@ -1,7 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { PiTestTube } from "react-icons/pi";
+import { PiGraduationCap } from "react-icons/pi";
+import { PiGear } from "react-icons/pi";
 import wildOasisWebImg from "@/public/wild-oasis-web.png";
 import wildOasisAdminPageImg from "@/public/wild-oasis-resort.png";
 import fastReactPizzaImg from "@/public/fast-react-pizza.png";
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Developer",
+    location: "Cencosud SA - Montevideo, UY",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Working as part of the OMS Team from Marketplace Paris. My main activity was related to QA Development. This was a hybrid full-time position.",
+    icon: React.createElement(PiTestTube),
+    date: "Feb 2023 - May 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Digital Operations VCP DevOps Team - General Electric Healthcare",
+    location: "TATA Consultancy - Montevideo, UY",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I was part of the Digital Operations VCP DevOps Team, working for General Electric Healthcare. I worked on a full-time position.",
+    icon: React.createElement(PiGear),
+    date: "Aug 2022 - Feb 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Graduated bootcamp - Hack Academy",
+    location: "Montevideo, UY",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I graduated after 3 months of full-time dedication (+600hs). Full-stack development.",
+    icon: React.createElement(PiGraduationCap),
+    date: "Jul 2022",
   },
 ] as const;
 
