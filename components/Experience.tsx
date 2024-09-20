@@ -47,6 +47,7 @@ export default function Experience() {
                 background:
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
+                opacity: "0.9",
               }}
               visible={inView}
             >
