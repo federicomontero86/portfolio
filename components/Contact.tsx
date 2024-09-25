@@ -9,9 +9,11 @@ import { useSectionInView } from "@/lib/hooks";
 import SectionHeading from "./SectionHeading";
 import { sendEmail } from "../actions/sendEmail";
 import SubmitBtn from "./SubmitBtn";
+import { useForm } from "react-hook-form";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
+  const { register, reset } = useForm();
 
   return (
     <motion.section
@@ -43,9 +45,11 @@ export default function Contact() {
           }
 
           toast.success("Email sent successfully!");
+          reset();
         }}
       >
         <input
+          {...register("email")}
           type="email"
           name="senderEmail"
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
@@ -54,6 +58,7 @@ export default function Contact() {
           maxLength={500}
         />
         <textarea
+          {...register("message")}
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
           placeholder="Your message"
