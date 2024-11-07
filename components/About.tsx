@@ -12,7 +12,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[50rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -36,15 +36,15 @@ export default function About() {
         <span className="font-medium">
           continue my learning journey consistently
         </span>
-        . I aspire to become a React.js Developer capable of making an impact
-        across various domains. My core stack is{" "}
+        . <br />I aspire to become a React.js Developer capable of making an
+        impact across various domains. My core stack is{" "}
         <span className="font-medium">
           HTML, CSS, Javascript, React and Next.js
         </span>
         . I am also familiar with TypeScript. I am always looking to learn new
         technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a front-end
-        developer.
+        <span className="font-medium">full-time position</span> as a full-stack
+        React developer.
       </p>
       <p>
         {" "}
