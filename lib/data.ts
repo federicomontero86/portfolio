@@ -43,7 +43,8 @@ export const experiencesData = [
     date: "Feb 2023 - May 2024",
   },
   {
-    title: "Digital Operations VCP DevOps Team - General Electric Healthcare",
+    title:
+      "Trainee - Digital Operations VCP DevOps Team General Electric Healthcare",
     location: "TATA Consultancy - Montevideo, UY",
     description:
       "I was part of the Digital Operations VCP DevOps Team, working for General Electric Healthcare. I worked on a full-time position.",
