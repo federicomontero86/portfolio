@@ -61,7 +61,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Federico.</span>
         <br />
-        I'm a <span className="font-bold">full-stack React developer</span>
+        I'm a <span className="font-bold">front-end developer / QA Manual</span>
         <br />
         from <span className="font-bold">Montevideo, Uruguay</span>.
         <br />I enjoy building <span className="italic">sites & apps</span>.
