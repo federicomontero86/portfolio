@@ -21,39 +21,35 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         {" "}
-        <span className="font-medium">Music</span> has been my primary activity
-        throughout my life, until 2021 when I decided to make a radical shift in
-        my career and venture into the world of software development. I enrolled
-        in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>. Over
-        the years,{" "}
-        <span className="italic">
-          my passion for Front-End development with React.js
-        </span>{" "}
-        has grown significantly. My current goal is to gain experience within
-        the <span className="underline">React.js ecosystem</span>, connect with
-        inspiring professionals who can provide guidance, and{" "}
+        <span className="font-medium">After an initial career in music</span>,
+        in 2021 I decided to redirect my professional path towards software
+        development, driven by a strong interest in technology. I trained at a
+        coding bootcamp, where I acquired skills as a{" "}
         <span className="font-medium">
-          continue my learning journey consistently
+          <br />
+          full-stack developer
         </span>
-        . <br />I aspire to become a React.js Developer capable of making an
-        impact across various domains. My core stack is{" "}
-        <span className="font-medium">
-          HTML, CSS, Javascript, React and Next.js
+        , and since then I have delved into front-end development,
+        <span className="italic">especially with React.js.</span>.<br />{" "}
+        Additionally, I have 1 year of work experience as a QA at Cencosud S.A.,
+        which has allowed me to strengthen my ability to guarantee software
+        quality, apply agile methodologies and collaborate effectively with
+        multidisciplinary teams. This combination of technical skills and QA
+        experience gives me a comprehensive perspective <br />
+        on the software development cycle. My current goal is to grow
+        professionally in <br />
+        <span className="underline">
+          Front-End Development and Quality Assurance roles
         </span>
-        . I am also familiar with TypeScript. I am always looking to learn new
-        technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> both as a
-        front-end developer or as a QA Manual.
+        , where I can contribute my technical skills and <br />
+        <span className="font-medium">attention to detail</span>, while
+        continuing to develop in both areas.{" "}
       </p>
       <p>
         {" "}
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        music with my friends, playing soccer, and spending nice time with my
-        family. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about audio production and music arrangements
-        <span className="font-medium"></span>.
+        music with my friends, playing soccer, <br />
+        and spending nice time with my family.
       </p>
     </motion.section>
   );
