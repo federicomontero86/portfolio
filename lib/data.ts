@@ -112,8 +112,6 @@ export const skillsData = [
   "Mongoose",
   "TypeORM",
   "PostgreSQL",
-  "JWT",
-  "Passport",
   "Swagger",
   "Postman",
   "Supabase",
