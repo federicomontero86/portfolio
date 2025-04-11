@@ -2,6 +2,7 @@ import React from "react";
 import { PiTestTube } from "react-icons/pi";
 import { PiGraduationCap } from "react-icons/pi";
 import { PiGear } from "react-icons/pi";
+import { FaShopify } from "react-icons/fa";
 import wildOasisWebImg from "@/public/wild-oasis-web.png";
 import wildOasisAdminPageImg from "@/public/wild-oasis-resort.png";
 import fastReactPizzaImg from "@/public/fast-react-pizza.png";
@@ -35,6 +36,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Frontend Developer",
+    location: "Sunshift - Montevideo, UY",
+    description:
+      "Focused on developing new features for 'La Casa de Flopy,' a tourism website in Uruguay. My main activity involved front-end development using Shopify-Liquid. This was a freelance project during February and March 2025.",
+    icon: React.createElement(FaShopify),
+    date: "Feb 2025 - Mar 2025",
+  },
+  {
     title: "Software Developer",
     location: "Cencosud SA - Montevideo, UY",
     description:
@@ -57,7 +66,7 @@ export const experiencesData = [
     description:
       "I graduated after 3 months of full-time dedication (+600hs). Full-stack development.",
     icon: React.createElement(PiGraduationCap),
-    date: "Jul 2022",
+    date: "Apr 2022 - Jul 2022",
   },
 ] as const;
 

@@ -44,10 +44,9 @@ export default function Experience() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                background:
-                  theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
+                background: theme === "light" ? "white" : "#1D2432",
                 fontSize: "1.5rem",
-                opacity: "0.9",
+                opacity: "1",
               }}
               visible={inView}
             >
