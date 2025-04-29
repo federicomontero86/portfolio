@@ -55,6 +55,9 @@ export default function Experience() {
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
+              <p className="!mt-1 !font-normal !text-sm italic text-gray-700 dark:text-white/75">
+                {item.techs}
+              </p>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}

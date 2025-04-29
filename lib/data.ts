@@ -42,6 +42,7 @@ export const experiencesData = [
       "Focused on developing new features for 'La Casa de Flopy,' a tourism website in Uruguay. My main activity involved front-end development using Shopify-Liquid. This was a freelance project during February and March 2025.",
     icon: React.createElement(FaShopify),
     date: "Feb 2025 - Mar 2025",
+    techs: "HTML | CSS | JavaScript | Shopify",
   },
   {
     title: "Software Developer",
@@ -50,6 +51,7 @@ export const experiencesData = [
       "Working as part of the OMS Team from Marketplace Paris. My main activity was related to QA Development. This was a hybrid full-time position.",
     icon: React.createElement(PiTestTube),
     date: "Feb 2023 - May 2024",
+    techs: "TypeScript | React | Nest.js | AWS | Kubernetes | New Relic",
   },
   {
     title:
@@ -59,6 +61,7 @@ export const experiencesData = [
       "I was part of the Digital Operations VCP DevOps Team, working for General Electric Healthcare. I worked on a full-time position.",
     icon: React.createElement(PiGear),
     date: "Aug 2022 - Feb 2023",
+    techs: "SQL | PLSQL",
   },
   {
     title: "Graduated bootcamp - Hack Academy",
@@ -67,6 +70,7 @@ export const experiencesData = [
       "I graduated after 3 months of full-time dedication (+600hs). Full-stack development.",
     icon: React.createElement(PiGraduationCap),
     date: "Apr 2022 - Jul 2022",
+    techs: "HTML | CSS | JavaScript | React | Node",
   },
 ] as const;
 
