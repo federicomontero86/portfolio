@@ -28,8 +28,10 @@ export default function RootLayout({
         {/* <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263] -webkit-blur-[10rem]"></div> */}
         {/* <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div> */}
         {/* <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394] -webkit-blur-[10rem]"></div> */}
-        <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[20rem] w-[20rem] rounded-full blur-[8rem] sm:w-[40rem] dark:bg-[#946263]"></div>
-        <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-20rem] h-[20rem] w-[30rem] rounded-full blur-[8rem] sm:w-[40rem] dark:bg-[#676394]"></div>
+        {/* <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[20rem] w-[20rem] rounded-full blur-[8rem] sm:w-[40rem] dark:bg-[#946263]"></div>
+        <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-20rem] h-[20rem] w-[30rem] rounded-full blur-[8rem] sm:w-[40rem] dark:bg-[#676394]"></div> */}
+        <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[20rem] w-[20rem] rounded-full blur-[8rem] sm:h-[31.25rem] sm:w-[31.25rem] sm:blur-[10rem] lg:h-[40rem] lg:w-[40rem] lg:blur-[12rem] dark:bg-[#946263]"></div>
+        <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-20rem] h-[20rem] w-[30rem] rounded-full blur-[8rem] sm:h-[31.25rem] sm:w-[50rem] sm:blur-[10rem] lg:h-[40rem] lg:w-[60rem] lg:blur-[12rem] dark:bg-[#676394]"></div>
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <>
