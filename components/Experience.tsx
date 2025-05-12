@@ -11,12 +11,11 @@ import { experiencesData } from "@/lib/data";
 import { useThemeContext } from "@/context/ThemeContext";
 
 import SectionHeading from "./SectionHeading";
-import { useInView } from "react-intersection-observer";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Experience() {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-  });
+
+  const { ref } = useSectionInView("Experience", 0.5);
 
   const { theme } = useThemeContext();
 
@@ -48,7 +47,7 @@ export default function Experience() {
                 fontSize: "1.5rem",
                 opacity: "1",
               }}
-              visible={inView}
+              visible={true}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
