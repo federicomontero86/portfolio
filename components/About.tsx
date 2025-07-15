@@ -20,36 +20,40 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        {" "}
         <span className="font-medium">After an initial career in music</span>,
-        in 2021 I decided to redirect my professional path towards software
-        development, driven by a strong interest in technology. I trained at a
-        coding bootcamp, where I acquired skills as a{" "}
+        in 2021 I decided to shift my professional path toward technology. I
+        trained as a <span className="font-medium">full-stack developer</span>{" "}
+        in a coding bootcamp, and since then I’ve focused on
+        <span className="italic"> front-end development with React</span>.<br />
+        Most recently, I worked as a{" "}
         <span className="font-medium">
-          <br />
-          full-stack developer
+          Front-End Developer using React and TypeScript
         </span>
-        , and since then I have delved into front-end development,
-        <span className="italic">especially with React.js.</span>.<br />{" "}
-        Additionally, I have 1 year of work experience as a QA at Cencosud S.A.,
-        which has allowed me to strengthen my ability to guarantee software
-        quality, apply agile methodologies and collaborate effectively with
-        multidisciplinary teams. This combination of technical skills and QA
-        experience gives me a comprehensive perspective <br />
-        on the software development cycle. My current goal is to grow
-        professionally in <br />
-        <span className="underline">
-          Front-End Development and Quality Assurance roles
+        , which strengthened my experience building{" "}
+        <span className="italic">
+          modern, reusable, and maintainable interfaces
         </span>
-        , where I can contribute my technical skills and <br />
-        <span className="font-medium">attention to detail</span>, while
-        continuing to develop in both areas.{" "}
+        .<br />
+        I’m interested in continuing to grow within the React ecosystem,
+        exploring tools like
+        <span className="underline"> React Native, Next.js, React Query</span>,
+        and other complementary technologies.
+        <br />
+        <br />I also have one year of experience as a QA at Cencosud S.A., where
+        I developed a strong
+        <span className="font-medium"> attention to detail</span>, an
+        understanding of the
+        <span className="italic"> full development lifecycle</span>, and
+        teamwork skills within
+        <span className="italic"> agile methodologies</span>.<br />
+        I'm looking to continue growing as a{" "}
+        <span className="font-medium">Front-End Developer</span>, contributing
+        value both technically and personally, in projects where I can{" "}
+        <span className="italic">learn and evolve</span>.
       </p>
       <p>
-        {" "}
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        music with my friends, playing soccer, <br />
-        and spending nice time with my family.
+        <span className="italic">Outside of work</span>, I enjoy making music,
+        playing soccer, and spending time with my family.
       </p>
     </motion.section>
   );
