@@ -2,7 +2,7 @@ import React from "react";
 import { PiTestTube } from "react-icons/pi";
 import { PiGraduationCap } from "react-icons/pi";
 import { PiGear } from "react-icons/pi";
-import { FaShopify } from "react-icons/fa";
+import { FaReact, FaShopify } from "react-icons/fa";
 import wildOasisWebImg from "@/public/wild-oasis-web.png";
 import wildOasisAdminPageImg from "@/public/wild-oasis-resort.png";
 import fastReactPizzaImg from "@/public/fast-react-pizza.png";
@@ -37,7 +37,16 @@ export const links = [
 export const experiencesData = [
   {
     title: "Frontend Developer",
-    location: "Sunshift - Montevideo, UY",
+    location: "Ab4cus - Montevideo, UY (Remote)",
+    description:
+      "Worked as a front-end developer within a Scrum team, building new features for BAS Backoffice, a cryptocurrency exchange platform. The project involved component development and UI integrations using React and TypeScript. This was a contract role during May to July 2025.",
+    icon: React.createElement(FaReact),
+    date: "May 2025 - Jul 2025",
+    techs: "React | TypeScript | Cypress",
+  },
+  {
+    title: "Frontend Developer",
+    location: "Sunshift - Montevideo, UY (Remote)",
     description:
       "Focused on developing new features for 'La Casa de Flopy,' a tourism website in Uruguay. My main activity involved front-end development using Shopify-Liquid. This was a freelance project during February and March 2025.",
     icon: React.createElement(FaShopify),
